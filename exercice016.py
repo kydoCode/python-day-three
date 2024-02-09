@@ -3,9 +3,9 @@ def compter_lettres(inputString):
     emptyArray = {}
 
     for element in inputString:
-        counter = inputString.count(element)
-        emptyArray[element] = counter
-    return emptyArray
+        if element == element.isalpha():
+            emptyArray[element] = inputString.count(element)
+        return emptyArray
 
 test = compter_lettres("bonjour")
 print(test)
