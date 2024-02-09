@@ -2,7 +2,7 @@ class Student:
     def __init__(self, name, age, mark):
         self.name = name
         self.age = age
-        self.mark = mark()
+        self.mark = []
     
     def add_mark(self, one_mark):
         self.mark.append[one_mark]
