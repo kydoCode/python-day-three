@@ -36,7 +36,18 @@ studentThree = Student("Julia", 23, [14, 10, 7])
 studentFour = Student("Avery", 26, [12])
 
 # print(studentOne.display_facts(), studentTwo.display_facts(), studentThree.display_facts())
-studentOne.display_facts()
+
+# studentOne.display_facts()
+# studentTwo.display_facts()
+# studentThree.display_facts()
+# studentFour.display_facts()
+
+studentTwo.add_mark(4)
+studentTwo.add_mark(10)
+# studentTwo.compute_average()
 studentTwo.display_facts()
+
+studentThree.add_mark(16)
+studentThree.add_mark(0)
+# studentThree.compute_average()
 studentThree.display_facts()
-studentFour.display_facts()
