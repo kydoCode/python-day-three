@@ -10,9 +10,8 @@ d = [a, b]
 stopValue = int(input("Valeur d'arrêt pour la suite de Fibonacci : "))
 
 for element in range(d[0], stopValue):
-    print(d[element]) # affiche la liste à l'index de l'élément passé dans la boucle
+    print("Element à l'index", element, "dont la valeur stockée dans la liste est:  ", d[element]) # affiche la liste à l'index de l'élément passé dans la boucle
     c = b + a
     d.append(c)
-    a = b
-    b = c
+    a, b = b, c
 print(d) # print(d) --> affiche toute la liste
